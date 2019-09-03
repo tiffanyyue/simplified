@@ -33,28 +33,38 @@ body{
 
 h1{
   font-family:public-sans-bold;
-  font-size:5em;
+  font-size:3em;
+}
+
+h2{
+  font-family:public-sans-bold;
+  font-size: 0.6em;
+  margin-top: -1.2em;
+  color: #D0CFCF;
 }
 
 p{
   font-family:public-sans-regular;
+  font-size: 1em;
   line-height:1.9em;
   color: #D0CFCF;
   text-align: justify;
 }
 
 .summary {
-  margin-top: -1.2em;
+
 }
 
 .left-footer{
-  margin-top: -0.5em;
+  margin-top: -1.2em;
   color: #A0A0A0;
+  font-size: 0.6em;
   font-family:public-sans-light-italic;
 }
 
 .right-footer{
   font-family:public-sans-light-italic;
   color: #A0A0A0;
+  font-size: 0.6em;
   margin-top: -1.2em
 }

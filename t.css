@@ -1,0 +1,82 @@
+@font-face {
+  font-family: univers-next-pro-bold;
+  src: url("./fonts/UniversNextProBold.ttf");
+}
+
+@font-face {
+  font-family: univers-next-pro-regular;
+  src: url("./fonts/UniversNextProRegular.ttf");
+}
+
+html {
+  background-color: F6F6F6;
+}
+
+body {
+  width: 80%;
+  margin: auto;
+}
+
+::selection {
+  color: white;
+  background: black;
+}
+
+.container {
+  min-height: 86%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#logo-mark {
+  width: 60px;
+  margin-bottom: 4%;
+}
+
+.contact-link {
+  font-weight: bold;
+  margin-right: 40px;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.contact-link:hover {
+  color: 0047FF;
+  border-bottom: none;
+}
+
+.intro {
+  font-family:'univers-next-pro-regular';
+  font-size: 24px;
+}
+
+.find-me {
+  font-family:'univers-next-pro-regular';
+  font-size: 16px;
+}
+
+a {
+  color: black;
+  transition: 0.2s;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0047FF;
+  border-bottom: 2px solid #0047FF;
+  text-decoration-color: black
+}
+
+.title {
+  font-family:'univers-next-pro-regular';
+  font-size: 16px;
+  margin-top: 10%;
+}
+
+.on-my-mind {
+  font-family: 'univers-next-pro-bold';
+  font-size: 96px;
+}

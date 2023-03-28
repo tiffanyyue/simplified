@@ -60,7 +60,8 @@ body {
 
 a {
   color: black;
-  transition: 0.2s;
+  transition: 0.3s;
+  transition-timing-function: ease-out;
   text-decoration: none;
 }
 
@@ -68,6 +69,10 @@ a:hover {
   color: #0047FF;
   border-bottom: 2px solid #0047FF;
   text-decoration-color: black
+}
+
+.icon {
+  font-family: monospace;
 }
 
 .title {
